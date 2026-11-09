@@ -18,7 +18,7 @@
     },
     "type": "theme",
     "target": "site",
-    "version": "1.0.1",
+    "version": "1.0.2-dev",
     "description": "unruly::messages.description",
     "namespace": "KraftInk\\Themes\\Unruly\\",
     "provider": "KraftInk\\Themes\\Unruly\\Providers\\ThemeServiceProvider",
