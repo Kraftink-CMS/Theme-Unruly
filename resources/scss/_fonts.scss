@@ -1,0 +1,29 @@
+@each $weight in 300, 500, 700 {
+    @font-face {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: $weight;
+        font-display: swap;
+        src: url('fonts/ubuntu-latin-#{$weight}-normal.woff2') format('woff2');
+    }
+}
+
+@each $weight in 300, 400, 700, 900 {
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: $weight;
+        font-display: swap;
+        src: url('fonts/roboto-latin-#{$weight}-normal.woff2') format('woff2');
+    }
+}
+
+@each $weight in 300, 400, 700 {
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: $weight;
+        font-display: swap;
+        src: url('fonts/open-sans-latin-#{$weight}-normal.woff2') format('woff2');
+    }
+}

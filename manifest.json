@@ -1,0 +1,75 @@
+{
+    "id": "unruly",
+    "name": "Unruly",
+    "market": {
+        "author": {
+            "name": "Orphevs, Eywek, nivcoo, KraftInk",
+            "url": "https://github.com/kraftink-cms"
+        },
+        "description": "unruly::market.description",
+        "image": {
+            "en": "preview-en.jpg",
+            "fr": "preview-fr.jpg"
+        }
+    },
+    "type": "theme",
+    "target": "site",
+    "version": "1.0.0",
+    "description": "unruly::messages.description",
+    "namespace": "KraftInk\\Themes\\Unruly\\",
+    "provider": "KraftInk\\Themes\\Unruly\\Providers\\ThemeServiceProvider",
+    "authors": ["Orphevs","Eywek","nivcoo","KraftInk"],
+    "license": "GPL-3.0-or-later",
+    "source": "https://github.com/MineWeb/Theme-Unruly",
+    "requires": {
+        "cms": ">=0.0.1",
+        "php": "^8.3"
+    },
+    "integrations": {
+        "plugin:shop": ">=0.0.1",
+        "plugin:vote": ">=0.0.1",
+        "plugin:wiki": ">=0.0.1",
+        "plugin:staff": ">=0.0.1",
+        "plugin:faq": ">=0.0.1",
+        "plugin:support": ">=0.0.1",
+        "plugin:forum": ">=0.0.1"
+    },
+    "configuration": {
+        "route": "themes.unruly.admin.configuration.index",
+        "routes": "routes/admin.php",
+        "permission": "settings.manage"
+    },
+    "uninstall": {
+        "settings": ["theme.unruly."],
+        "storage": []
+    },
+    "assets": {
+        "styles": ["theme.css"],
+        "scripts": ["theme.js"],
+        "fonts": [
+            "fonts/ubuntu-latin-300-normal.woff2",
+            "fonts/ubuntu-latin-500-normal.woff2",
+            "fonts/ubuntu-latin-700-normal.woff2",
+            "fonts/roboto-latin-300-normal.woff2",
+            "fonts/roboto-latin-400-normal.woff2",
+            "fonts/roboto-latin-700-normal.woff2",
+            "fonts/roboto-latin-900-normal.woff2",
+            "fonts/open-sans-latin-300-normal.woff2",
+            "fonts/open-sans-latin-400-normal.woff2",
+            "fonts/open-sans-latin-700-normal.woff2"
+        ],
+        "images": [
+            "images/Iron_Sword.png",
+            "images/Diamond_Sword.png",
+            "images/showcase_pvp.png",
+            "images/showcase_survival.png",
+            "images/showcase_adventure.png"
+        ]
+    },
+    "build": {
+        "scss": ["resources/scss/theme.scss"]
+    },
+    "capabilities": {
+        "appearance": ["light"]
+    }
+}
