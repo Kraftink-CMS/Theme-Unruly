@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'description' => 'Une ambiance Minecraft classique et des vitrines illustrées. Unruly, par Orphevs et Eywek, adapté à KraftInk.',
+    'description' => 'Un accueil Minecraft avec une épée interactive et trois vitrines pour votre serveur.',
 ];
