@@ -14,4 +14,4 @@ Unruly gives your KraftInk site a classic Minecraft look. Its homepage features 
 
 ## Licence and credits
 
-Unruly is adapted from the [MineWeb Unruly theme](https://github.com/MineWeb/Theme-Unruly) by Orphevs and Eywek and distributed under GPL-3.0-or-later. Include these credits and the [full licence](LICENSE) when redistributing the theme.
+KraftInk adaptation, November 9, 2026. This version adapts the [MineWeb Unruly theme](https://github.com/MineWeb/Theme-Unruly) by Orphevs and Eywek for use with KraftInk. It is distributed under GPL-3.0-or-later. Include these credits and the [full licence](LICENSE) when redistributing the theme.
