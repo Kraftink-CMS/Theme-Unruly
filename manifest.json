@@ -2,6 +2,10 @@
     "id": "unruly",
     "name": "Unruly",
     "market": {
+        "readme": {
+            "en": "lang/en/market.md",
+            "fr": "lang/fr/market.md"
+        },
         "author": {
             "name": "Orphevs, Eywek, nivcoo, KraftInk",
             "url": "https://github.com/kraftink-cms"
